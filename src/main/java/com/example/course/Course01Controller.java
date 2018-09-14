@@ -1,11 +1,11 @@
-package com.example.course01;
+package com.example.course;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/start")
-public class StartController  {
+public class Course01Controller {
 
     @RequestMapping("/springboot")
     public String startSpringBoot() {
